@@ -1,0 +1,24 @@
+*{
+  background-color: black;
+  color: white;
+}
+.main-container{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-gap: 2rem;
+   
+}
+
+.container{
+  border: 2px solid grey;
+  border-radius: 2%;
+  
+}
+.nav{
+  padding-left: 40%;
+  color: grey;
+  border-bottom: 2px solid;
+}
+img{
+  width: 100%;
+}
